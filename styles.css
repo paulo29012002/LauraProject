@@ -49,13 +49,23 @@
 .head-text-img{
     float:right;
     padding-right: 20px;
+}
+
+.head-text-img a{
+    text-decoration: none;
     color: #113151;
 }
+
 .head-text-text{
     float:right;
     padding-right: 20px;
+}
+
+.head-text-text a{
+    text-decoration: none;
     color: #113151;
 }
+
 .menu{
     background-color: #113151;
     width: 70%;
@@ -155,7 +165,7 @@ color:white;
     height: 600px;
     float: right;
     width: 400px;
-    background-image: url('img/work.jpg');
+    background-image: url('img/chica\ \(1\).png');
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 50px;
@@ -182,6 +192,7 @@ color:white;
     height:600px;
     width: 100%;
     float: left;
+    padding-bottom:150px;
 }
 .test-title-one{
     width: 100%;
@@ -214,7 +225,7 @@ color:white;
     border-radius: 70px;
     width: 100px;
     height: 100px;
-    background-image: url('img/mia.jpg');
+    background-image: url('img/Amelia.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -253,10 +264,9 @@ color:white;
 }
 .foot{
     width: 100%;
-    margin-top: 300px;
     float: left;
     height: 300px;
-    background-color: #084887;
+    background-color: #113151;
 }
 .foot-contact{
     width: 15%;
@@ -269,26 +279,36 @@ color:white;
     font-size:120px;
     color:white;
     vertical-align: middle;
+
 }
 .foot-contact-text{
     float: left;
     width: 35%;
 }
-.foot-text{
+
+.foot-contact-text a{
+    color: white;
+}
+
+.foot-text a{
     font-size: 20px;
 }
+
 .color-foot{
     color:white;
     padding-top:20px;
 }
+
 .down{
     padding-top:80px;
 }
+
 .foot-we{
     float: left;
     width: 50%;
     height:300px;
 }
+
 .foot-we-text{
     color:white;
     font-size: 40px;
@@ -296,9 +316,558 @@ color:white;
     padding-left: 30%;
     padding-top: 60px;
 }
+
 .foot--text{
     color:white;
     float: right;
     padding-left: 30%;
     padding-right: 10%;
 }
+
+form{
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    font-size: 0.8em;
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+}
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 380px;
+}
+.fg{
+    padding-bottom: 30px;
+}
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+.field:focus{
+    border-color: #113151;
+}
+.btn{
+	border-radius: 3px;
+    width: 400px;
+	display: inline-block;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+}
+
+.btn-green{
+	color: white;
+	background-color: #2979C8;
+}
+.btn-green:hover{
+	background-color: #113151;	
+}
+.btn-green:active{
+	background-color: #2979C8;
+} 
+
+/* TAMAÑO BASE PARA LAS DIFERENTES AREAS DE LA PÁGINA */
+.cajabase {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+#nosotros .fila .col2 {
+	width: 40%;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+/* ESPACIADO INTERNO PARA LAS DIFERENTES AREAS DE LA PÁGINA */
+.espaciado {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#nosotros .fila {
+	display: flex;
+}
+
+#nosotros .fila .col1  {
+	width: 60%;
+    padding-left: 30px;
+	padding-top: 20px;
+}
+
+#nosotros .fila .col1 img {
+	width: 100%;
+	vertical-align: top;
+	
+}
+
+#nosotros .fila .col2 {
+	width: 40%;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+
+#nosotros .fila2 {
+	display: flex;
+}
+
+#nosotros .fila2 .col3  {
+	width: 60%;
+}
+
+#nosotros .fila2 .col4 img {
+	width: 100%;
+	vertical-align: top;
+}
+
+#nosotros .fila2 .col3 {
+	width: 40%;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.descripcion .cajabase h1 {
+    left: 50%;
+}
+
+
+/*servicio*/
+.banner {
+    height: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+   
+.flexible {
+    display: flex;
+}	
+
+#descripcion .espaciado h1 {
+    margin-top: 50px;
+}
+
+#descripcion h1{
+    text-align: center;
+}
+
+#descripcion .cajabase .col {
+    text-align: center;
+}
+
+.cajabase .col {
+    width: 25%;
+    margin: 10px;
+    padding: 40px;
+    
+}
+
+.cajabase .col img {
+    width: 100%;
+    border: 50%;
+}
+
+/*contrutendor*/
+.cargando{
+    width: 100%;
+    float: left;
+    font-size:80px;
+    text-align: center;
+    color: #113151;
+}
+
+.cargando{
+    width: 100%;
+
+}
+
+
+/*donde estamos*/
+.main{
+    float: left;
+    width: 100%;
+    height: 500px;
+}
+.informacion{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+.mapa{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top:20px;
+}
+.informacion-1{
+    padding-top:50px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.informacion-1 i{
+    font-size:70px;
+    color:#113151;
+}
+.informacion-1 p{
+    padding-top:20px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size:20px;
+}
+
+
+.informacion-2{
+    padding-top:30px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.informacion-2 i{
+    font-size:70px;
+    color:#113151;
+}
+.informacion-2 p{
+    padding-top:20px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size:20px;
+}
+.main-2{
+    float: left;
+    width: 100%;
+    height: 400px;
+    display:flex;
+    align-items: center;
+    justify-content:center
+
+}
+.main-3{
+    float: left;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:center
+
+}
+.box{
+    float: left;
+    height:300px;
+    display:flex;
+    justify-content:center
+}
+.box img{
+    width:400px;
+    margin:20px;
+}
+.box p{
+    display: block;
+    width:400px;
+    margin:20px;
+    margin-top: 0;
+}
+
+
+/*contactanos*/
+.banner {
+	width: 100%;
+}
+
+.banner img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+
+
+.mapa{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+#lslider{
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+  
+  #lslider > ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  #lslider > ul.slider{
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: 300px;
+  }
+  
+  #lslider > ul.slider h1{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+  }
+  
+  #lslider > ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  #lslider > ul.slider li img{
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+  }
+  
+  #lslider > ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  #lslider > ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  #lslider > .menu{
+    text-align: center;
+    margin:20px;
+    margin-top:90px;
+    margin-left:100px;
+    background-color: white;
+  }
+  
+  #lslider > .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  #lslider > .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  .main2{
+      width: 100%;
+      float: left;
+  }
+  .main2 p{
+    text-align: center;
+    width: 50%;
+    float: right;
+    margin: 10px;
+    margin-top:0;
+    margin-right: 0;
+  }
+
+  /*atencion al cliente*/
+
+#apoyo .cajabase .col {
+    border: solid 5px;
+    border-radius: 5%;
+}
+
+#doble .cajabase .col1 h2  {
+    text-align: left;
+    top: 1000px;
+}
+
+#doble .cajabase .col2 h2 {   
+    text-align: right;
+} 
+
+#doble .cajabase .col2 p {
+    padding-left: 500px;
+}
+
+#construcción .cajabase p {
+    color: tomato;
+    font-size: 30px;
+}
+
+
+/*donde estamos*/
+.main{
+    float: left;
+    width: 100%;
+    height: 500px;
+}
+.informacion{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+.mapa{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top:20px;
+}
+.informacion-1{
+    padding-top:50px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.informacion-1 i{
+    font-size:70px;
+    color:#113151;
+}
+.informacion-1 p{
+    padding-top:20px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size:20px;
+}
+
+
+.informacion-2{
+    padding-top:30px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.informacion-2 i{
+    font-size:70px;
+    color:#113151;
+}
+.informacion-2 p{
+    padding-top:20px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size:20px;
+}
+.main-2{
+    float: left;
+    width: 100%;
+    height: 400px;
+    display:flex;
+    align-items: center;
+    justify-content:center
+
+}
+.main-3{
+    float: left;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:center
+
+}
+.box{
+    float: left;
+    height:300px;
+    display:flex;
+    justify-content:center
+}
+.box img{
+    width:400px;
+    margin:20px;
+}
+.box p{
+    display: block;
+    width:400px;
+    margin:20px;
+    margin-top: 0;
+}
+
+#apoyo h1 {
+    text-align: center;
+}
+
+#apoyo .cajabase p {
+    font-size: 20px;
+}
+
+
+#apoyo  .col h2 {
+    font-size: 20px;
+}
+
+
+#video {
+    background-color: gray;
+}
+
+#video .cajabase h2 {
+    color: black;
+    text-align: center;
+}
+
+#video .cajabase video {
+    width: 100%;
+    border: solid 5px black;
+    padding: 20px;
+}
+
+
+/*iniciar sesion/registrate*/
+#cuestionario .ficha {
+    width: 30%;
+    text-align: center;
+}
+
+#cuestionario .ficha .entrada {
+    border: solid 3px #113151;
+    margin: 8px 0px;
+    padding: 5px 15px;
+}
+
+#cuestionario .ficha .entrada input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;            
+}
+
+#cuestionario .ficha .entrada textarea {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px; 
+}
+
+#cuestionario .ficha p input {
+    font-size: 20px; 
+}
+
+#cuestionario .ficha .boton_enviar {
+    width: 100%;
+	padding: 15px 0px;
+	border-radius: 10px;
+	font-size: 20px;
+    background-color: #5B7793;
+	cursor: pointer;
+	transition: all 0.5s ease-in;
+}
+
+#cuestionario .ficha .boton_enviar:hover {
+    background-color: #999;
+}
+
+
+
+
+
+
